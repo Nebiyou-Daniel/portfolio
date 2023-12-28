@@ -1,0 +1,66 @@
+/* Tags */
+body {
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 20px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: brown;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0 100px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: 0;
+    padding: 0 100px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.mainLeft, .mainRight {
+    width: 50%;
+}
+
+/* Others */
+.currentPage, .currentPage:hover {
+    color: orange;
+}
